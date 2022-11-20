@@ -17,7 +17,7 @@
     "illuminate/support": "^6|^7",
     "superbalist/php-pubsub": "^1.0|^2.0",
     "superbalist/php-pubsub-redis": "^1.0|^2.0",
-    "superbalist/php-pubsub-google-cloud": "^5.0",
+    "superbalist/php-pubsub-google-cloud": "5.3.0-beta",
     "illuminate/console": "^6|^7",
     "superbalist/php-pubsub-http": "^1.0"
   },
