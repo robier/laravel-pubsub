@@ -1,5 +1,5 @@
 {
-  "name": "entanet/laravel-pubsub",
+  "name": "robier/laravel-pubsub",
   "description": "A Pub-Sub abstraction for Laravel",
   "license": "MIT",
   "authors": [
@@ -9,15 +9,16 @@
     }
   ],
   "conflict": {
-    "superbalist/laravel-pubsub": "*"
+    "superbalist/laravel-pubsub": "*",
+    "entanet/laravel-pubsub": "*"
   },
   "require": {
     "php": ">=7.2.0",
-    "illuminate/support": "^7",
+    "illuminate/support": "^6|^7",
     "superbalist/php-pubsub": "^1.0|^2.0",
     "superbalist/php-pubsub-redis": "^1.0|^2.0",
     "superbalist/php-pubsub-google-cloud": "^5.0",
-    "illuminate/console": "^7",
+    "illuminate/console": "^6|^7",
     "superbalist/php-pubsub-http": "^1.0"
   },
   "autoload": {
